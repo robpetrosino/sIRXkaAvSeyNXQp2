@@ -6,16 +6,22 @@ The goal of the project is to build a deep learning model that is able to predic
 
 ## Prerequisites
 
-TBD
+`numpy`; `os`
+`matplotlib`; `seaborn`
+`tensoryflow`
+`sklearn`
 
 ## Train and predict
 
-TBD
+The model transferred from the MobileNetV2 model had an accuracy and F1 scores of about 95%, while still maintaining a size suitable for mobile application (~12 MB). The code for the model can be found in the `/models/train.py` file. The model was trained on the images stored in the folder `data/raw/images/training/`.
+
+The code for using the trained model to make predictions on new data is contained in the `/models/test.py` file.
 
 ## Evaluation
 
-The model uses the `f1_score` as evaluation metrics.
+The model uses accuracy and `f1_score` as evaluation metrics. The size of the model is also taken into account.
 
 ## Conclusion
 
-TBD
+In this project, I leveraged the power of a series of CNN models to help the mobile app Monreader to classify images showing and not showing page flips. All models (custom CNN, VGG16, ResNet, MobileNet, and EfficientNet) performed very well, but only the MobileMobile model had a suitable size, while keeping high accuracy scores. 
+
