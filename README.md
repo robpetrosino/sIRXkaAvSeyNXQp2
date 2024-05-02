@@ -15,7 +15,7 @@ The goal of the project is to build a deep learning model that is able to predic
 - `numpy`, `os`
 - `matplotlib`, `seaborn`
 - `tensoryflow`
-= `sklearn`
+- `sklearn`
 
 ## Train and predict
 
