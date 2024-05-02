@@ -1,6 +1,6 @@
 ## Gradio Demo available!
 
-You can check out a Gradio demo of the classifier on the HuggingFace Space linked here: [![apziva-monreader-classifier](https://robpetrosino-apziva-monreader-demo.hf.space).
+You can check out a Gradio demo of the classifier on the HuggingFace Space linked here: [apziva-monreader-classifier](https://robpetrosino-apziva-monreader-demo.hf.space).
 
 ## Introduction
 
