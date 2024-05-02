@@ -12,10 +12,10 @@ The goal of the project is to build a deep learning model that is able to predic
 
 ## Prerequisites
 
-`numpy`; `os`
-`matplotlib`; `seaborn`
-`tensoryflow`
-`sklearn`
+- `numpy`, `os`
+- `matplotlib`, `seaborn`
+- `tensoryflow`
+= `sklearn`
 
 ## Train and predict
 
