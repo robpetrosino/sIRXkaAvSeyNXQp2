@@ -19,7 +19,7 @@ The goal of the project is to build a deep learning model that is able to predic
 
 ## Train and predict
 
-The model transferred from the MobileNetV2 model had an accuracy and F1 scores of about 95%, while still maintaining a size suitable for mobile application (~12 MB). The code for the model can be found in the `/models/train.py` file. The model was trained on the images stored in the folder `data/raw/images/training/`.
+Among the 5 different CNN models built via transfer learning, the one based on the `MobileNetV2` model showed an accuracy and F1 scores of about 95%, while still maintaining a size suitable for mobile application (~12 MB). The code for the model can be found in the `/models/train.py` file. The model was trained on the images stored in the folder `data/raw/images/training/`.
 
 The code for using the trained model to make predictions on new data is contained in the `/models/test.py` file.
 
